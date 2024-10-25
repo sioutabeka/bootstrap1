@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('path/to/your/image.jpg'); /* Remplacez par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* Style pour les icônes de médias sociaux */
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff; /* Couleur du lien */
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}

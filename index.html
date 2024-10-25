@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Tunisien</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+
+    <!-- Section En-tête -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Restaurant Tunisien</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">À propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Héros -->
+    <div class="hero">
+        <div>
+            <h1>Bienvenue au Restaurant Tunisien</h1>
+            <a class="btn btn-primary btn-lg" href="#menu">Découvrir le Menu</a>
+        </div>
+    </div>
+
+    <!-- Section Menu -->
+    <section id="menu" class="container my-5">
+        <h2 class="text-center mb-4">Notre Menu</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path/to/your/dish1.jpg" class="card-img-top" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Couscous</h5>
+                        <p class="card-text">Délicieux couscous traditionnel avec légumes et viande.</p>
+                        <p class="price">10€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path/to/your/dish2.jpg" class="card-img-top" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Brik</h5>
+                        <p class="card-text">Pâtisserie frite farcie aux œufs et au thon.</p>
+                        <p class="price">5€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path/to/your/dish3.jpg" class="card-img-top" alt="Plat 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tagine</h5>
+                        <p class="card-text">Savoureux tagine de poulet aux olives et citron.</p>
+                        <p class="price">12€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos de Nous -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">À propos de nous</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="path/to/your/restaurant.jpg" class="img-fluid" alt="Restaurant">
+            </div>
+            <div class="col-md-6">
+                <p>Notre restaurant propose une authentique cuisine tunisienne, mettant en avant des recettes traditionnelles transmises de génération en génération. Nous sommes passionnés par la qualité des ingrédients et l'art de la préparation, et nous nous engageons à offrir à nos clients une expérience culinaire inoubliable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Restaurant Tunisien. Tous droits réservés.</p>
+            <div>
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
